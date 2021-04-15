@@ -8,18 +8,10 @@ function handleSubmit (event) {
     headers:{'Content-Type':'application/json'},
     body:JSON.stringify({formUrl:formUrl}),   
     })
-    .then (res => res.json())
-    .then  (consoleFunction())
-   // Client.checkForName(formUrl)
-   // console.log ("::: Form Submitted :::")
+
 }
 
-//export { handleSubmit } doesn't work
 
 
 
-function consoleFunction() {
 
-    let results = document.getElementById('results');
-    console.log (res.agreement)
-}
