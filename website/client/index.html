@@ -10,11 +10,18 @@
     <section>
         <input type="text" id="form-URL">
         <input type="submit" id ="sbm-btn" value="Submit" onclick="return handleSubmit(event)" onsubmit="return handleSubmit(event)">
-        <textarea id = "results">Results of Analyze:</textarea>
+        <div id ="results">Results of Analyze:
+            <div id ="confidence"></div>
+            <div id ="Irony"></div>
+            <div id ="Score"></div>
+            <div id ="Subjectivity"></div>
+        </div>
+
     </section>
     <footer>
         Footer
     </footer>
+    <script src="./js/nameChecker.js"></script>
     <script src="./js/formHandler.js"></script>
 </body>
 </html>
