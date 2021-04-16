@@ -19,7 +19,7 @@ function listening () {
 }
 
 //GET
-app.get ('/', getData) 
+app.get ('/analyze', getData) 
 function getData (req,res) {
     res.send ('')
 }
@@ -30,15 +30,13 @@ const baseURL = 'https://api.meaningcloud.com/sentiment-2.1?key=';
 const api = process.env.API_KEY;
 
 //API request
-app.post ('/save', getSentiment);
+app.post ('/analyze', getSentiment);
 async function getSentiment (req, res) {
 const sentiment = await fetch (`${baseURL}${api}&lang=auto&url=${req.body.formUrl}`, 
 {method:'POST'});
 try{
     const newData = await sentiment.json();
     res.send(newData);
-    console.log(newData)
+    console.log (console.log(newData))
 } catch (error) {console.log('error', error)}
-
 };
- 
