@@ -1,0 +1,40 @@
+<DOCTYPE! html>
+<html>
+<head>
+<title>NLP evaluation</title>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+rel="stylesheet">
+</head>
+<body>
+    <header>
+       
+    </header>
+    <h1>News Article evaluation</h1>
+    <section>
+        <div id ="results"> </div>
+            <div class =  "block_results">
+                <div id ="confidence"></div>
+                <div id ="Irony"></div>
+                <div id ="Score"></div>
+                <div id ="Subjectivity"></div>
+            </div>
+        <form id ="form">
+            <span class="material-icons" id = "search">search</span><input type="text" id="form-URL" placeholder="Type URL...">
+        <input type="submit" id ="sbm-btn" value="Submit" onclick="return Fox.handleSubmit (event)" onsubmit="return handleSubmit (event)">
+        </form>
+    </section>
+    <footer>
+        <a href="https://github.com/wadewilsones/Articles-evaluation"><p>GitHub@wadewilsones</p></a>
+    </footer>
+    <script>
+        // Check that service workers are supported
+        if ('serviceWorker' in navigator) {
+            // Use the window load event to keep the page load performant
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js');
+            });
+        }
+       </script>
+</body>
+</html>
