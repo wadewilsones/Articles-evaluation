@@ -15,15 +15,15 @@ After cloning  (or downolading ZIP-folder) it's nessesary to use terminal and ty
 Signup  [ MeaningCloud's] (https://www.meaningcloud.com/developer/create-account) for a license key to start using the API.
 
 ### Step 2: Environment Variables
- Use npm to install the ```bash dotenv ``` package npm install dotenv.
+ Use npm to install the ```dotenv ``` package npm install dotenv.
 
- Create a new ```bash.env``` file in the root of your project
+ Create a new ```.env``` file in the root of your project
 
- Fill the ```bash.env``` file with your API key like this:
+ Fill the ```.env``` file with your API key like this:
 
 ```bash.API_KEY=**************************```
  Add this code to the very top of your server/index.js file:
-```bash const dotenv = require('dotenv') dotenv.config()```
+```const dotenv = require('dotenv') dotenv.config()```
 
 This means that our updated API credential settings will look like this:
 
