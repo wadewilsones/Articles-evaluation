@@ -1,0 +1,42 @@
+$main-font: Roboto;
+$primary-color: #EEC60A;
+$font-size-Header: 72px;
+$font-size-Button-results: 26px;
+$font-size-rest: 22px;
+
+body {
+    margin:0;
+    font-family: $main-font;
+}
+a{
+    color: #F5F4E8;
+    text-decoration: none;
+        a:after{color: #F5F4E8;
+            text-decoration: none;}}
+
+h1 {
+    color:$primary-color;
+    font-size:$font-size-Header;
+    text-align: center;
+    margin-top: 10%;
+    font-weight: 500;
+}
+
+
+//output
+
+#results {
+    text-align: center;
+    font-weight: 700;
+    font-size: $font-size-Button-results;
+    line-height: 2;
+}
+
+.block_results {display: flex;
+    width:60%;
+    margin: auto;
+align-items: center;
+justify-content: space-around;
+margin-top: 2%;
+margin-bottom: 2%;
+}
