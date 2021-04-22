@@ -22,12 +22,14 @@ Signup  [ MeaningCloud's] (https://www.meaningcloud.com/developer/create-account
  Fill the ```.env``` file with your API key like this:
 
 ```API_KEY=**************************```
+
  Add this code to the very top of your server/index.js file:
+ 
 ```const dotenv = require('dotenv') dotenv.config()```
 
 This means that our updated API credential settings will look like this:
 
-const API_KEY = process.env.API_KEY
+```const API_KEY = process.env.API_KEY```
 
 
 ## Enjoy your app!
