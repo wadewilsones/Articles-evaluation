@@ -1,0 +1,15 @@
+@import "./style.scss";
+
+footer {position: absolute;
+    bottom: 0px;
+    left:0px;
+    height: 86px;
+    width: 100%;
+    background-color: $primary-color;
+    color: #F5F4E8
+}
+
+footer p {
+    text-align: center;
+font-size:$font-size-rest;
+padding-top: 10px;}
