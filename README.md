@@ -7,7 +7,7 @@ This project uses an API through url entered by a user to run NLP on articles or
 
 After cloning  (or downolading ZIP-folder) it's nessesary to use terminal and type there: 
 
-```bash npm install```
+```npm install```
 
 ## Setting up the API
 
