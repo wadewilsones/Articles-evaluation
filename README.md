@@ -30,4 +30,4 @@ This means that our updated API credential settings will look like this:
 const API_KEY = process.env.API_KEY
 
 
-##Enjoy your app!
+## Enjoy your app!
