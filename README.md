@@ -12,7 +12,7 @@ After cloning  (or downolading ZIP-folder) it's nessesary to use terminal and ty
 ## Setting up the API
 
 ### Step 1: Signup for an API key
-Signup  [MeaningCloud's] (https://www.meaningcloud.com/developer/create-account) for a license key to start using the API.
+Signup  [MeaningCloud's](https://www.meaningcloud.com/developer/create-account) for a license key to start using the API.
 
 ### Step 2: Environment Variables
  Use npm to install the ```dotenv ``` package npm install dotenv.
