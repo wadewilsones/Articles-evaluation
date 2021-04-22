@@ -21,7 +21,7 @@ Signup  [ MeaningCloud's] (https://www.meaningcloud.com/developer/create-account
 
  Fill the ```.env``` file with your API key like this:
 
-```bash.API_KEY=**************************```
+```API_KEY=**************************```
  Add this code to the very top of your server/index.js file:
 ```const dotenv = require('dotenv') dotenv.config()```
 
