@@ -1,11 +1,10 @@
 # Articles-evaluation app!
 
-Evaluate a news Article with Natural Language Processing (NLP) is a project IV of Udacity's Front End Web Developer Nanaodegree Program.
 This project uses an API through url entered by a user to run NLP on articles or blogs and to find whether the content is subjective (opinion) or objective (fact-based) and whether it is positive, neutral, or negative in tone.
 
 ## Getting Started 
 
-After cloning  (or downolading ZIP-folder) it's nessesary to use terminal and type there: 
+After cloning the project go to the project root folder and in terminal:
 
 ```npm install```
 
